@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <title>Email Organizer</title>
+    
+    <!-- Office JavaScript API -->
+    <script type="text/javascript" src="https://appsforoffice.microsoft.com/lib/1.1/hosted/office.js"></script>
+    
+    <link rel="stylesheet" href="https://static2.sharepointonline.com/files/fabric/office-ui-fabric-core/11.0.0/css/fabric.min.css"/>
+    
+    <!-- Template styles -->
+    <link href="taskpane.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body class="ms-font-m ms-welcome">
+    <div id="content-main">
+        <div class="ms-Grid">
+            <div class="ms-Grid-row">
+                <div class="ms-Grid-col ms-sm12">
+                    <h2 class="ms-font-xl">Email Organizer</h2>
+                    <div id="status" class="ms-fontColor-neutralSecondary"></div>
+                    <button id="organize-btn" class="ms-Button ms-Button--primary">
+                        <span class="ms-Button-label">Organize Email</span>
+                    </button>
+                    <div id="folder-list" class="ms-fontColor-neutralPrimary"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="taskpane.js"></script>
+</body>
+</html>
